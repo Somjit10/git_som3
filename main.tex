@@ -1,0 +1,64 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+
+% Title formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+
+\pagestyle{fancy}
+\fancyhf{}
+\rfoot{\thepage}
+
+\begin{document}
+
+% HEADER WITH PHOTO
+\begin{minipage}{0.7\textwidth}
+    \Huge \textbf{Somjit Dey} \\[6pt]
+    \normalsize
+    Pump house no2, Srinagar no3\\
+    Madhyamgram,Kol: 700129\\
+    Phone no: 9143107013 \\
+    Email: makautsomjit24@gmail.com
+\end{minipage}
+\hfill
+\begin{minipage}{0.25\textwidth}
+ \includegraphics[width=\linewidth]{somjit.jpg} % Use actual photo file name
+\end{minipage}
+
+\vspace{1em}
+
+% EDUCATION TABLE
+\section*{Degrees and Education}
+\begin{tabularx}{\textwidth}{|X|X|X|}
+\hline
+\textbf{Degree} & \textbf{Institution} & \textbf{Year} \\
+\hline
+ICS & The Central Modern School & 2024 \\
+\hline
+B.Sc. in Cyber Security & MAKAUT & 2024-2028\\
+\hline
+\end{tabularx}
+
+% AWARDS
+\section*{Awards and Achievements}
+\begin{itemize}
+    \item 2nd Postion – Inter Group sports Shooting competition(State Level)(2024)
+    \item 1st Position- Inter Battalion Sports Shooting Competition(District Level)(2024)
+    \item Best Paper – Information Security(2024)
+\end{itemize}
+
+% SKILLS
+\section*{Languages, Computer, and Other Skills}
+\textbf{Languages:} Bengali (native), English (basic), Hindi(3rd lang) \\
+\textbf{Computer Skills:} Python, C programming, LaTeX, Git \\
+\textbf{Other Skills:} Expository writing, Critical thinking, Public speaking 
+
+% INTERESTS
+\section*{Activities and Interests (Optional)}
+Reading sci-fi novels, Network Security and hacking Seminars , Shooting
+
+\end{document}
